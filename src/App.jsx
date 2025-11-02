@@ -58,7 +58,6 @@ const App = () => {
                  name: user.name,
                  email: user.email,
         });
-        
       alert("✅ Press download to get the resume in pdf format!");
     } catch (error) {
       console.error("Error updating resume count:", error);
